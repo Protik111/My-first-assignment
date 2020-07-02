@@ -155,3 +155,82 @@ section {
     color: white;
     margin-top: 20px;
 }
+
+.skill-header{
+    color: white;
+    background-image: linear-gradient(180deg, #F51678, #F51678 );
+    font-weight: 700;
+    width: 15%;
+    padding-left: 15px;
+    border-radius: 10px;
+    margin-left: 20px;
+
+
+}
+#skill1{
+    background-color: deepskyblue;
+    width: 40%;
+    padding-left: 7px;
+    border-radius: 8px;
+}
+#skill1::after{content: "     -50%";}
+
+#skill2{
+    background-color: deepskyblue;
+    width: 30%;
+    padding-left: 7px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+#skill2::after{content: "       -40%";}
+
+#skill3{
+    background-color: deepskyblue;
+    width: 25%;
+    padding-left: 7px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+#skill3::after{content: "       -30%";}
+
+#skill4{
+    background-color: deepskyblue;
+    width: 60%;
+    padding-left: 7px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+#skill4::after{content: "       -70%";}
+#skill5{
+    background-color: deepskyblue;
+    width: 55%;
+    padding-left: 7px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+#skill5::after{content: "       -60%";}
+
+#skill1:hover{
+    background-color: dodgerblue;
+    font-weight: 700;
+}
+
+#skill2:hover{
+    background-color: dodgerblue;
+    font-weight: 700;
+}
+
+#skill3:hover{
+    background-color: dodgerblue;
+    font-weight: 700;
+}
+
+#skill4:hover{
+    background-color: dodgerblue;
+    font-weight: 700;
+}
+
+#skill5:hover{
+    background-color: dodgerblue;
+    font-weight: 700;
+}
